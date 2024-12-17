@@ -56,7 +56,7 @@ export default function Navbar() {
     <div className="relative">
       <Dock
         direction="middle"
-        className="border-secondary w-[70%] md:w-[40%] justify-between mt-4 fixed left-0 right-0 bg-primary bg-opacity-70 backdrop-blur-md z-50"
+        className="w-[70%] md:w-[40%] justify-between mt-4 fixed left-0 right-0 bg-primary bg-opacity-70 backdrop-blur-md z-50"
       >
         <div className="flex flex-col w-full">
           <div className="flex flex-row justify-evenly w-full items-center h-12 px-2 gap-10">
@@ -95,9 +95,9 @@ export default function Navbar() {
             </div>
             {/* Waitlist button - hidden on mobile */}
             <button
-              className="hidden md:flex items-center justify-center gap-1 bg-purple-500  text-white bg-accent bg-opacity-50 px-4 py-2 rounded-full font-medium hover:bg-[#c72bff] hover:bg-opacity-70 transition-colors text-md whitespace-nowrap"
+              className="hidden md:flex items-center justify-center gap-1 bg-purple-500 text-white bg-accent px-4 py-2 rounded-full font-medium hover:bg-[#c72bff] hover:bg-opacity-70 transition-colors text-md whitespace-nowrap"
             >
-                Sign Up
+                Sign Up 
             </button>
             <button
               className="md:hidden flex items-center justify-center ml-4"
